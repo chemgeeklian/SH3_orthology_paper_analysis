@@ -1,0 +1,14 @@
+How to create the pdb images.
+
+Pymol functions (in order):
+
+(step 1)
+
+spectrum b, white_red, minimum = 0.0, maximum = 3.0
+
+(step 2)
+as surface
+set surface_quality, 1
+
+(step 3)
+rotate y, -45 
